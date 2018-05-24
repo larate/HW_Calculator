@@ -1,5 +1,6 @@
 Feature: Multiplication
 
+  @multip
   Scenario Outline: Multiplication two numbers
     Given the input "<input>"
     When the calculator is run

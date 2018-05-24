@@ -1,5 +1,6 @@
 Feature: Adding
 
+@add
   Scenario Outline: Add two numbers
     Given the input "<input>"
     When the calculator is run
@@ -8,7 +9,7 @@ Feature: Adding
     Examples:
 
       | input        | output        |
-      #| 7+15         | 55            |
+      | 7+15         | 22            |
       | 2+2          | 4             |
       | 2+15         | 17            |
       | 7+15         | 22            |

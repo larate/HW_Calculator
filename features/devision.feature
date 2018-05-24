@@ -1,5 +1,6 @@
 Feature: Devision
 
+  @dev
   Scenario Outline: Division two numbers
     Given the input "<input>"
     When the calculator is run
