@@ -1,4 +1,4 @@
-Feature: Devision
+Feature: Division
 
   @dev
   Scenario Outline: Division two numbers

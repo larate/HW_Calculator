@@ -1,3 +1,5 @@
+
+
 Given /^the input "([^"]*)"$/ do |input|
   @input = input
 end
@@ -8,5 +10,5 @@ When /^the calculator is run$/ do
 end
 
 Then /^the output should be "([^"]*)"$/ do |expected_output|
-  @output.should == expected_output
+  @output.should  eq(expected_output)
 end
