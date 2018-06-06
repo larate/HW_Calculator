@@ -11,7 +11,7 @@ Feature: Adding
       | input | output |
       | 7+15  | 22     |
       | 2+2   | 4      |
-      | 2+15  | 1      |
+      | 2+15  | 17      |
 
 
 
