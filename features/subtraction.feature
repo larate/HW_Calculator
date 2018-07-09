@@ -1,6 +1,6 @@
 Feature: Subtraction
 
-  @subtract
+  @sub
   Scenario Outline: Subtraction two numbers
     Given the input "<input>"
     When the calculator is run
